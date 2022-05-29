@@ -1,0 +1,342 @@
+@\import "https://malscraper.azurewebsites.net/covers/anime/SpaceCowboy/presets/dataimagelinkbefore";
+@\import "https://malscraper.azurewebsites.net/covers/manga/DateYutaka/presets/dataimagelinkbefore";
+ 
+
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Theme%20-%20Compressed.css";
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Hover%20Image%20Compressed.css";
+@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/Clarity%20Theme/Mod%20-%20Dark%20Mode%20Compressed.css";
+
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Banner Titles   |
+\*------------------------------*/
+
+body[data-query*='status":7'] { --name: ""; 
+}
+body[data-query*='status":1'] { --name: ""; 
+}
+body[data-query*='status":2']  { --name: ""; 
+}
+body[data-query*='status":3'] { --name: "";
+}
+body[data-query*='status":4'] { --name: "";
+}
+body[data-query*='status":6'] { --name: "";
+}
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Per-Category Banner Background Image
+To change background images: delete what's in the parenthesis. Upload 
+the new background to Imgur or a similar site, then copy the direct link (or Original GIF link if it's animated) and paste it into the parenthesis. Save.
+|
+\*------------------------------*/
+
+/* All Anime */
+[data-query*='status":7'] { --banner: url(https://i.imgur.com/GW2BFpl.jpeg); }
+/* Watching/Reading */
+[data-query*='status":1'] { --banner: url(https://wallpapercave.com/wp/wp6970943.jpg);}
+/* Completed */
+[data-query*='status":2'] { --banner: url(https://static01.nyt.com/images/2020/09/22/science/16TB-VIKINGS/16TB-VIKINGS-videoSixteenByNineJumbo1600.jpg); }
+/* Onhold */
+[data-query*='status":3'] { --banner: url(https://images8.alphacoders.com/355/355541.jpg); }
+/* Dropped */
+[data-query*='status":4'] { --banner: url(https://i.imgur.com/atQ3k0a.jpeg); }
+/* Planned */
+[data-query*='status":6'] { --banner: url(https://i.imgur.com/uyelfHg.jpeg); }
+
+
+
+
+
+/*-S-T-A-R-T--------------------*\
+| Per-Category Banner Character (Render)
+Background size is the size of the image. 100% is full size. 
+
+The first percentage after background position is the position from the left. Lower percentages move it left and you can go negative. The second percentage is position from the top. Lower percentages move it down. 
+|
+\*------------------------------*/
+
+/* All Anime */
+[data-query*='status":7'] { --character: url();
+}
+[data-query*='status":7'] #list-container #cover-image-container {
+    background-size: 60%;
+    background-position: 80% 20%;
+    
+}
+/* Watching/Reading */
+[data-query*='status":1'] { --character: url();
+}
+[data-query*='status":1'] #list-container #cover-image-container {
+    background-size: 50%;
+    background-position: 80% 10%;
+}
+/* Completed */
+[data-query*='status":2'] { --character: url();
+}    
+[data-query*='status":2'] #list-container #cover-image-container {
+    background-size: 50%;
+    background-position: 0% 10%;
+}
+/* Onhold */
+[data-query*='status":3'] { --character: url();
+}
+    [data-query*='status":3'] #list-container #cover-image-container {
+    background-size: 40%;
+    background-position: 50% 10%;
+}
+/* Dropped */
+[data-query*='status":4'] { --character: url();
+}
+    [data-query*='status":4'] #list-container #cover-image-container {
+    background-size: 34%;
+    background-position: 100% 10%;
+}
+/* Planned */
+[data-query*='status":6'] { --character: url();     
+}
+ [data-query*='status":6'] #list-container #cover-image-container {
+    background-size: 40%;
+    background-position: 100% 10%;
+}
+
+
+/*-S-T-A-R-T--------------------*\
+| Banner Avatar    |
+\*------------------------------*/
+
+body[data-query*='status":7']  { --avatar: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/spike-spiegel-namrahc.jpg); }
+
+body[data-query*='status":1']  { --avatar: url(https://observer.com/wp-content/uploads/sites/2/2021/03/1299926-768x516-1.jpeg?quality=80); }
+
+body[data-query*='status":2']  { --avatar: url(https://dotandline.net/wp-content/uploads/2018/04/1_58uZVuKlz4bhBJF1BL9qdA.jpeg); }
+
+body[data-query*='status":3']  { --avatar: url(http://i.imgur.com/MhQqYRf.png); }
+
+body[data-query*='status":4']  { --avatar: url(https://i.pinimg.com/originals/e8/27/af/e827af6fc27e84d4fce3636179f27c99.png); }
+
+body[data-query*='status":6']  { --avatar: url(https://i.pinimg.com/originals/e8/27/af/e827af6fc27e84d4fce3636179f27c99.png); }
+
+
+/*-S-T-A-R-T--------------------*\
+| Per-Category Background Image
+If you want a wallpaper on a category, you can add direct background images links to the parenthesis here for each category! By default, there is no wallpaper.
+
+|
+\*------------------------------*/
+
+/* All Anime */
+body[data-query*='status":7'] { --background: url(); }
+/* Watching/Reading */
+body[data-query*='status":1'] { --background: url(); }
+/* Completed */
+body[data-query*='status":2'] { --background: url(); }
+/* Onhold */
+body[data-query*='status":3'] { --background: url(); }
+/* Dropped */
+body[data-query*='status":4'] { --background: url(); }
+/* Planned */
+body[data-query*='status":6'] { --background: url(); }
+
+
+
+/*SIDE RENDERS (left and right)
+To move the renders, adjust the percentage after "left" or "right" and "top". You can use negatives. The percentage is the distance from the left, top, or right. 
+
+To resize the renders, adjust the percentage after "width". 0% will remove the render.*/
+
+/*ALL ANIME/MANGA RENDERS*/
+[data-query*='"status":7'] footer:before {
+left: -5%;
+top: 15%;
+width: 35% !important;
+background-size: contain !important;
+background-image: url();
+background-position: left bottom !important;
+} 
+[data-query*='"status":7'] footer:after {
+right: -10%;
+top: 0%;
+width: 40% !important;
+background-size: contain !important;;
+background-image: url();
+background-position: right bottom !important;
+}
+/*CURRENT RENDERS*/
+[data-query*='"status":1'] footer:before {
+left: -3%;
+top: 0%;
+width: 25% !important;
+background-size: contain !important;
+background-image: url();
+background-position: left bottom !important;
+}
+[data-query*='"status":1'] footer:after {
+right: -12%;
+top: 25%;
+width: 70% !important;
+background-size: contain !important;;
+background-image: url();
+background-position: right bottom !important;
+}
+/*COMPLETED RENDERS*/
+[data-query*='"status":2'] footer:before {
+left: -3%;
+top: 0%;
+width: 25% !important;
+background-size: contain !important;
+background-image: url();
+background-position: left bottom !important;
+}
+[data-query*='"status":2'] footer:after {
+right: -3%;
+top: 0%;
+width: 25% !important;
+background-size: contain !important;;
+background-image: url;
+background-position: right bottom !important;
+}
+/*ON HOLD RENDERS*/
+[data-query*='"status":3'] footer:before {
+left: -4%;
+top: 0%;
+width: 25% !important;
+background-size: contain !important;
+background-image: url();
+background-position: left bottom !important;
+}
+[data-query*='"status":3'] footer:after {
+right: -4%;
+top: 0%;
+width: 25% !important;
+background-size: contain !important;;
+background-image: url();
+background-position: right bottom !important;
+}
+/*DROPPED RENDERS*/
+[data-query*='"status":4'] footer:before {
+left: -2%;
+top: 0%;
+width: 28% !important;
+background-size: contain !important;
+background-image: url();
+background-position: left bottom !important;
+}
+[data-query*='"status":4'] footer:after {
+right: -5%;
+top: 10%;
+width: 25% !important;
+background-size: contain !important;;
+background-image: url();
+background-position: right bottom !important;
+}
+/*PLANNED RENDERS*/
+[data-query*='"status":6'] footer:before {
+left: -3.5%;
+top: 0%;
+width: 25% !important;
+background-size: contain !important;
+background-image: url();
+background-position: left bottom !important;
+}
+[data-query*='"status":6'] footer:after {
+right: -3%;
+top: 0%;
+width: 25% !important;
+background-size: contain !important;;
+background-image: url();
+background-position: right bottom !important;
+}
+
+/*------------------------------*\
+| Character Renders R0.3         |
+\*------------------------------*/
+
+footer:before, footer:after {
+	content: "";
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	
+	width: calc(50% - 538px);
+	min-width: 262px;
+	height: 100%;
+	background: transparent no-repeat center bottom / contain scroll;
+}
+
+
+/*------------------------------*\
+| List colors       |
+pbg is the color of the wallpaper when you have no image there
+
+bg is the color of the tables and rows
+
+text is the color of your anime
+titles and some text on your rows (numbers, score, information, tags)
+
+text-dim is other text on your rows (edit, more, non-links, Progress:, Rated:, etc)
+
+btn-bg is the button color around score and tags
+
+text-head is the category links unselected
+
+text-head-h is the current category link selected
+
+btn-head-bg-h is buttons under the header when selected
+
+btn-text-h is that button text
+
+banner-text is the banner text color, and its shadow color is under that
+
+Get a new HTML/Hex color number here, or use color names.
+https://htmlcolorcodes.com/
+
+Get new RGBA colors here for the rows
+https://cssgenerator.org/rgba-and-hex-color-generator.html
+\*------------------------------*/
+:root {
+
+    --pbg: #161616;
+    --bg: #212121;
+    --bg-dark: #444;
+    --text: #ababab;
+    --text-h: #416abe;
+    --text-dim: #777;
+    --text-dim-h: #999;
+    --text-dark: #ababab;
+    --shadow: rgba(0,0,0,0.8);
+    --icon: #959595;
+    --accent: #416abe;
+    --banner-text: #f6f5ff;
+    --banner-text-shadow: #e4bef4;
+    --btn-bg: #191919;
+    --btn-bg-h: #ababab;
+    --btn-head-bg-h: #416abe;
+    --btn-text-h: #212121;
+    --text-head: #9b9b9b;
+    --text-head-h: #ababab;
+    --cover-bg: #090909;
+    --edit-btn: #323232;
+    --checkmark: #416abe;
+}
+
+
+/*------------------------------*\
+| List colors       |
+status menu container is the color of the header under the banner when there is transparency on your tables, and the last codes control the rows on hover and the glow around them. Make a new box shadow here
+https://html-css-js.com/css/generator/box-shadow/
+\*------------------------------*/
+
+.status-menu-container{
+background:  
+}
+
+.list-table-data:hover{
+background: ;
+box-shadow: ;
+
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: #d3ba4b;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+    display: grid;
+    margin: 0;
+}
+
+#circ-div {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    background: white;
+    border: 1vh solid black;
+}

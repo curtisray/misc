@@ -1,0 +1,48 @@
+.header .header-title{}
+
+.header a {
+    color: transparent;
+}
+
+.header .header-menu .btn-menu {
+    color: transparent;
+}
+
+body {
+    margin: 0 0 0 0;
+    text-align: center;
+    font-family: Verdana, Arial;
+    font-size: 11px;
+    background: #20615b;
+}
+
+.cover-block .image-container img {
+    max-width: 0;
+    max-height: 0;
+}
+
+.list-container {
+    position: relative;
+    background: #5f6769;
+    border: #feb062 5px solid;
+    width: 1058px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.status-menu-container {
+    width: 1058px;
+    height: 46px;
+    background-color: #3c4245;
+    z-index: 1;
+}
+
+.list-unit .list-status-title {
+    height: 0;
+}
+
+.list-unit .list-status-title .text {
+    color: transparent;
+}
