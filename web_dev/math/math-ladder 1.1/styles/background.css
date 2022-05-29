@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eef2e2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #352f44;
+    border-radius: 0;
+}
+
+#page1 {
+    width: 100vw; height: 100vh;
+    background: #fecd51;
+}
+
+#logo {
+    position: relative;
+    top: 40%; left: 40%;
+
+    width: 150px; height: 50px;
+    background: #5f6caf;
+    border-radius: 1px;
+
+    box-shadow: 10px 10px #e85b48, -10px -10px #352f44;
+}
+
+#title {
+    position: absolute;
+    left: 17px;
+
+    font-weight: 700;
+    font-size: larger;
+    color: #eef2e2;
+    text-shadow: 1px 1px 1px black;
+}

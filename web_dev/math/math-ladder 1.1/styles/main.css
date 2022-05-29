@@ -1,0 +1,138 @@
+#page2 {
+    position: relative;
+    width: 100vw; height: 100vh;
+    background: #eef2e2;
+}
+
+.text-panel {
+    position: absolute;
+
+    border-radius: 10px;
+    width: 45vw; height: 20vh;
+    margin-top: 1vh;
+}
+
+#right-panel{
+    left: 45vw; top: 20vh;
+    background: #e85b48;
+
+    box-shadow: #e85b48 0 21vh, #e85b48 0 42vh;
+}
+
+.inner-head {
+    position: absolute;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-weight: 550;
+    font-size: large;
+    color: #352f44;
+}
+
+.inner-body {
+    position: absolute;
+    top: 3vh;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-weight: 400;
+    font-size: medium;
+    color: #eef2e2;
+}
+
+#one-p {
+    margin-top: 4vh;
+}
+
+#two-p {
+    top: 25vh;
+}
+
+#three-p {
+    top: 46vh;
+}
+
+#one-h, .inner-head{
+    top: 0;
+}
+
+#two-h, .inner-head {
+    top: 21vh;
+}
+
+#three-h, .inner-head {
+    top: 42vh;
+}
+
+#checkbox {
+    position: absolute;
+    left: 30vw; top: 30vh;
+}
+
+.input {
+    position: absolute;
+    width: 20vw;
+}
+
+#input-one, .input {
+    left: 10vw; top: 30vh;
+    width: 17vw;
+}
+
+#input-two, input {
+    left: 10vw; top: 72vh;
+}
+
+#fortune-button {
+    position: absolute;
+
+    left: 40vw; top: 50vh;
+}
+
+.answer-box {
+    position: absolute;
+
+    width: 10vw; height: 10vh ;
+    border-radius: 10px;
+    background: #fecd51;
+}
+
+#ans-one, .answer-box {
+    left: 33vw; top: 27vh;
+}
+
+#ans-two, .answer-box {
+    left: 33vw; top: 68vh;
+}
+
+#fortune {
+    position: absolute; 
+    left: 10vw; top: 46vh;
+
+    width: 28vw; height: 100px;
+    background: #352f44;
+    border-radius: 10px;
+}
+
+#fortune-answer {
+    text-align: center;
+    top: 1vh;
+
+    color: #eef2e2fb;
+
+    font-size: medium;
+    font-weight: 200;
+
+}
+
+#temp-convert-ans {
+    color: #352f44;
+
+    position: absolute;
+    left: 10%; top: 25%;
+    font-size: medium;
+    font-weight: 550;
+
+}

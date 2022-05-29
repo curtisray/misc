@@ -1,0 +1,78 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393e46;
+    border-radius: 0;
+}
+
+/* Main CSS */
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    height: 100vh;
+}
+img {
+    width: 100vw; height: 100vh;
+}
+
+#one {
+    position: relative;
+    background: grey;
+    width: 100vw;
+}
+
+#two {
+    background: #fdc57b;
+    position: relative;
+    left: 0vw;
+    width: 30vw;
+}
+
+#three {
+    background: #fbf2d5;
+    position: absolute;
+    top: 100vh; right: 0vw;
+    width: 70vw;
+}
+
+.head {
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: 550;
+    letter-spacing: 2px;
+    padding-top: 2vh;
+}
+
+.body {
+    font-size: 1vw;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    line-height: 4vh;
+}
+
+.sign {
+    font-size: 1vw;
+    text-align: left;
+    font-weight: 200;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    line-height: 4vh;
+}

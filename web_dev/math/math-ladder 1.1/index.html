@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/background.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <!-- Background HTML-->
+        <div id="page1">
+            <div id="logo"><P id="title">Ladder Math</P></div>
+        </div>
+        <div id="page2">
+            
+            <!-- Main HTML -->
+
+        <!-- Right Panels-->
+        <div id="right-panel" class="text-panel">
+            <p id="one-p" class="inner-body"> Convert between Farenheit and Celsius to the 2nd decimal place.</p>
+            <p id="two-p" class="inner-body">Creates a fortune based on a set of defined variables.</p>
+            <p id="three-p" class="inner-body">Finds the equation of a line, given two points.</p>
+
+            <p id="one-h" class="inner-head">Farenheit - Celsius Converter</p>
+            <p id="two-h" class="inner-head">Fortune Teller</p>
+            <p id="three-h" class="inner-head">Linear Calculator</p>
+        </div>
+
+        <!-- Left Panels-->
+
+        <div id="ans-one" class="answer-box">
+            <p id="temp-convert-ans"> </p>
+        </div> 
+        <div id="ans-two" class="answer-box"></div>
+        
+        <div id="fortune">
+            <p id="fortune-answer"> </p>
+        </div>
+
+        <!-- Inputs -->
+
+        <div>
+            <input id="input-one" class="input" onkeypress="celsiusFarenheit()">
+            <input type="checkbox" id="checkbox">  
+            
+            <input id="input-two" class="input">
+
+            <button id="fortune-button" onclick="button()"">+</button>
+        </div>
+        
+        </div>
+    </body>
+</html>

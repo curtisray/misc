@@ -1,0 +1,19 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: #ececec;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+#list.list {
+    text-align: left;
+}
+
+.subHeader {
+    color: #606470;
+    font-style: italic;
+}

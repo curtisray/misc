@@ -1,0 +1,234 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393e46;
+    border-radius: 0;
+}
+
+/* SVG Transitions */
+
+.custom-shape-divider-bottom-1642889667 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642889667 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 340px;
+}
+
+.custom-shape-divider-bottom-1642889667 .shape-fill {
+    fill: #f8b595;
+}
+
+.custom-shape-divider-bottom-1642890646 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642890646 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-bottom-1642890646 .shape-fill {
+    fill: #eeeeee;
+}
+
+.custom-shape-divider-bottom-1642890772 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642890772 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 112px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1642890772 .shape-fill {
+    fill: #dbd8e3;
+}
+
+/* Main CSS */
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#pageOne {
+    position: absolute;
+    width: 100%; height: 100%;
+    background-color: #eeeeee ;
+    background-image: url(https://th.bing.com/th/id/R.88f7d49a2d2921827ce6f2d10c486c17?rik=xi%2fPRMMwU2oaPA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2015%2f12%2f219722-nature-landscape-Indonesia-field-trees-mountain-hill-mist-aerial_view-villages.jpg&ehk=QDGEdBSkrfCu3F7t3FU2HMAMKmOdy2DLtiNCSiMwRJM%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+}
+#pageTwo {
+    position: absolute;
+    top: 100vh;
+    width: 100%; height: 100%;
+    background: white;
+}
+#pageThree {
+    position: absolute;
+    top: 200vh;
+    width: 100%; height: 100%;
+    background: #eeeeee;
+}
+#pageFour {
+    position: absolute;
+    top: 300vh;
+    width: 100%; height: 100%;
+    background: #dbd8e3;
+}
+#pageFive {
+    position: absolute;
+    top: 400vh;
+    width: 100%; height: 100%;
+    background: #eeeeee;
+}
+
+.title {    
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.title #head {
+    font-size: 3vmax;
+    color: #dbd8e3;
+    text-shadow: 2px 2px #393e46;
+    letter-spacing: 1vmin;
+    font-weight: 550;
+}
+.title #subHead {
+    font-size: 2vmax;
+    color: #eeeeee;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+.text {
+    position: absolute;
+    left: 0; top: 11vh;
+    width: 25vw; height: 75vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+    color: #393e46;
+    
+    background: transparent;
+}
+
+.worksCited {
+    position: absolute;
+    left: 0; top: 11vh;
+    width: 75vw; height: 75vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+    color: #393e46;
+    
+    background: transparent;
+}
+
+.worksCitedBody {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.head {
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.body {
+    font-size: 20px;
+}
+
+.image {
+    position: absolute;
+    width: 40vw;
+    right: 0;
+    padding-right: 10vw;
+}
+
+.coverImage {
+    position: absolute;
+    width: 80vw; height: 20vh;
+    left: 10vw; top: 35vh;
+    padding-right: 10vw;
+    border-radius: 10px;
+}
+
+#indoMap {
+    width: 35vw;
+    left: 0;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    background: #eeeeee;
+    opacity: 90%;
+    border-radius: 5px;
+    box-shadow: black -3px 3px;
+}
+#DEICflag {
+    width: 35vw;
+    padding-top: 5vh;
+}
+#JapanFlag {
+    width: 35vw;
+}
+#DutchWar {
+    width: 35vw;
+    padding-top:5vh;
+}
+#DutchRule {
+    width: 35vw;
+}
+#IndoWave {
+    position: relative;
+    left: -3vw;
+    width: 50vw;
+    padding-top: 5vh;
+}
+#Jakarta {
+    position: relative;
+    left:-3vw;
+    width: 50vw;
+}

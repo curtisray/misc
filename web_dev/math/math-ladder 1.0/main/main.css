@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+#head-square {
+    position: relative;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #999999;  
+    text-align: center;
+    z-index: 1;
+}
+
+#notch {
+    position: relative;
+    top: -10vh; left: 25vw;
+    width: 50vw;
+    height: 10vh;
+    background-color: #363636;
+    z-index: 2;
+}
+
+.title {
+    position: relative;
+    top: -17.5vh;
+    text-align: center;
+    z-index: 10;
+
+    color: goldenrod;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+    font-size: large;
+}
+
+.body {
+    position: static;
+    
+    height: 30vh;
+    
+    z-index: 5;
+}
+
+.calc-title {
+    text-align: center;
+
+    font-size: medium;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#first-body {
+    background-color: #ff894c;
+}
+
+#second-body {
+    background-color: #dc2f2f;
+}
+
+#third-body {
+    background-color: #363636;
+}

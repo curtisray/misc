@@ -1,0 +1,192 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #393e46;
+    border-radius: 0;
+}
+
+/* SVG Transitions */
+
+.custom-shape-divider-bottom-1642889667 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642889667 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 340px;
+}
+
+.custom-shape-divider-bottom-1642889667 .shape-fill {
+    fill: #eeeeee;
+}
+
+.custom-shape-divider-bottom-1642890646 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642890646 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-bottom-1642890646 .shape-fill {
+    fill: #DBD8E3;
+}
+
+.custom-shape-divider-bottom-1642890772 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642890772 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 112px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1642890772 .shape-fill {
+    fill: #EEEEEE;
+}
+
+/* Main CSS */
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#pageOne {
+    position: absolute;
+    width: 100%; height: 100%;
+    background: #38598b ;
+    background-image: url(https://th.bing.com/th/id/R.e6ff13a07caf751fdf4a09da655f1911?rik=%2fdMDPJvfMMkrog&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2014%2f07%2f25%2fairplane-high-definition_041506617_103.jpg&ehk=d%2fxthjJspOuVrLYQy%2fPzP2POlUwmDeeoEB%2feGOZFkhw%3d&risl=&pid=ImgRaw&r=0);
+}
+#pageTwo {
+    position: absolute;
+    top: 100vh;
+    width: 100%; height: 100%;
+    background: #eeeeee;
+}
+#pageThree {
+    position: absolute;
+    top: 200vh;
+    width: 100%; height: 100%;
+    background: #dbd8e3;
+}
+#pageFour {
+    position: absolute;
+    top: 300vh;
+    width: 100%; height: 100%;
+    background: #eeeeee;
+}
+
+.title {    
+    padding-left: 10vw;
+    padding-top: 10vh;
+}
+
+.title #head {
+    font-size: 5vmax;
+    color: #eeeeee;
+    text-shadow: 2px 2px #393e46;
+    letter-spacing: 1vmin;
+    font-weight: 550;
+}
+.title #subHead {
+    font-size: 2vmax;
+    color: #dbd8e3;
+    font-family: monospace;
+    letter-spacing: 1vmin;
+}
+
+.text {
+    position: absolute;
+    left: 0; top: 11vh;
+    width: 25vw; height: 75vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+    color: #393e46;
+    
+    background: transparent;
+}
+
+.head {
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.body {
+    font-size: 20px;
+}
+
+.image {
+    position: absolute;
+    width: 40vw;
+    right: 0;
+    padding-right: 10vw;
+}
+
+#indoImg {
+    width: 40vw;
+    padding-top: 10vh;
+}
+#waveImg {
+    width: 40vw;
+}
+#ucscImg {
+    width: 40vw;
+    padding-top:10vh;
+}
+#uhImg {
+    width: 40vw;
+}
+#reactImg {
+    width: 20vw;
+    padding-top: 10vh;
+}
+#firebaseImg {
+    width: 20vw;
+}
+#googleImg {
+    width: 20vw;
+}
+#microsoftImg {
+    width: 20vw;
+}
