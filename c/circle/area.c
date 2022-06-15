@@ -6,13 +6,17 @@ int main()
 {
 	// declar input and output variables
 	int radius;
-	int area;
+	double area;
 	
 	// get user input
 	printf("Radius Length: ");
 	scanf("%i", &radius);
+	printf("Computing for [ %i ] as the given radius.\n", radius);
+
+	// calculate the area
+	area = 3.1415926535 * (radius * radius);
 
 	// print the output
-	printf("%i\n", area);
+	printf("The area is %f!\n", area);
 	return 0;
 }
